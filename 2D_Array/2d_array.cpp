@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 void main()
@@ -10,7 +10,7 @@ void main()
 	const int SIZE = ROW * COL;
 	int arr[ROW][COL] = {};
 
-	cout << "Äâóìåðíûé ìàññèâ, çàïîëíåííûé ðàíäîìíûìè ÷èñëàìè: " << endl;
+	cout << "Ð”Ð²ÑƒÐ¼ÐµÑ€Ð½Ñ‹Ð¹ Ð¼Ð°ÑÑÐ¸Ð², Ð·Ð°Ð¿Ð¾Ð»Ð½ÐµÐ½Ð½Ñ‹Ð¹ Ñ€Ð°Ð½Ð´Ð¾Ð¼Ð½Ñ‹Ð¼Ð¸ Ñ‡Ð¸ÑÐ»Ð°Ð¼Ð¸: " << endl;
 	for (int i = 0; i < ROW; i++)
 	{
 		for (int j = 0; j < COL; j++)
@@ -34,8 +34,8 @@ void main()
 			sum += arr[i][j];
 		}
 	}
-	cout << "Ñóììà çíà÷åíèé ýëåìåíòîâ ìàññèâà: " << sum << endl;
-	cout << "Ñðåäíåå àðèôìåòè÷åñêîå çíà÷åíèå ýëåìåíòîâ ìàññèâà: " << (double)sum / SIZE << endl;
+	cout << "Ð¡ÑƒÐ¼Ð¼Ð° Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ð¹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << sum << endl;
+	cout << "Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ Ð°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << (double)sum / SIZE << endl;
 
 	int max = arr[0][0];
 	int min = arr[0][0];
@@ -47,8 +47,8 @@ void main()
 			if (arr[i][j] < min)min = arr[i][j];
 		}
 	}
-	cout << "Ìàêñèìàëüíîå çíà÷åíèå = " << max << endl;
-	cout << "Ìèíèìàëüíîå çíà÷åíèå = " << min << endl;
+	cout << "ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ = " << max << endl;
+	cout << "ÐœÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ = " << min << endl;
 
 	int iterations = 0;
 	for (int i = 0; i < ROW; i++)
@@ -69,8 +69,8 @@ void main()
 			}
 		}
 	}
-cout << "Ñîðòèðîâêà âûïîëíåíà çà " << iterations << endl;
-	//âûâîä ìàññèâà íà ýêðàí
+cout << "Ð¡Ð¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²ÐºÐ° Ð²Ñ‹Ð¿Ð¾Ð»Ð½ÐµÐ½Ð° Ð·Ð° " << iterations << endl;
+	//Ð²Ñ‹Ð²Ð¾Ð´ Ð¼Ð°ÑÑÐ¸Ð²Ð° Ð½Ð° ÑÐºÑ€Ð°Ð½
 	for (int i = 0; i < ROW; i++)
 	{
 		for (int j = 0; j < COL; j++)
