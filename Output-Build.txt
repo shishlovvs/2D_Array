@@ -1,0 +1,7 @@
+﻿Build started...
+1>------ Build started: Project: 2D_Array, Configuration: Debug Win32 ------
+1>2d_array.cpp
+1>C:\Users\guron\source\repos\2D_Array\2D_Array\2d_array.cpp(5,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+1>2D_Array.vcxproj -> C:\Users\guron\source\repos\2D_Array\Debug\2D_Array.exe
+1>Done building project "2D_Array.vcxproj".
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
